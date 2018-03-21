@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+    <link href="https://unpkg.com/material-resume@1.0.1/resume.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-resume@1.0.1/resume.min.js"></script>
+
+</head>
+
+<body ng-app="Resume" ng-cloak="">
+    <resume>
+        <resume-heading first-name="Danilo" last-name="A. Botaro" linkedin="Danilo Assis" github="daniloab" email="daniloassis.ti@gmail.com"
+            phone="(19) 9 83380205">
+        </resume-heading>
+        <resume-body>
+            <resume-column flex="20">
+                <sidebar-category name="Education">
+                    <p>Unip - Swift</p>
+                    <p>Graduating Jul 2017</p>
+                    <p>System Analyst</p>
+                    <p>Cemep - Technical</p>
+                    <p>Graduating Dec 2013</p>
+                    <p>Programming Technician</p>
+                </sidebar-category>
+                <!-- <sidebar-category name="Achievements">
+                    <p>Penn App Finalist Spring 2016</p>
+                    <p>Hophacks 2nd Place Spring 2016</p>
+                    <p>Dankmeme Achievement Medal 2016</p>
+                    <p>Dan Abromov's Top Follower 2016</p>
+                    <p>Advanced Regents Diploma</p>
+                </sidebar-category> -->
+                <sidebar-category name="Coursework">
+                    <p>Angular</p>
+                    <p>Programming in C#</p>
+                    <p>Javascript & jQuery</p>
+                    <p>Programmings Languages</p>
+                    <p>Operating Systems</p>
+                </sidebar-category>
+            </resume-column>
+            <resume-column flex="80">
+                <category name="Professional Experience">
+                    <category-item title="Web Developer Front-End" subtitle="TriboFox (Oct 2017 - Current)">
+                        <li>Dev web softwares in front-end and back-end</li>
+                        <li>Layouts e-mail marketing</li>
+                        <li>Projects responsives mobile first</li>
+                        <li>SEO</li>
+                        <li>HTML, AngularJs, C#, Typescript, Javascript, GitHub</li>
+                    </category-item>
+                    <category-item title="Web Developer Front-End" subtitle="Starcorp (Apr 2017 - Oct 2017)">
+                        <li>E-commerce Project</li>
+                        <li>Working to get better conversion on front-end</li>
+                        <li>SEO</li>
+                        <li>Used AngularJs to improve pages speed and development</li>
+                        <li>HTML, AngularJs, C# MVC, Typescript, Javascript, SVN</li>
+                    </category-item>
+                    <category-item title="Web Developer" subtitle="Action Dev (May 2017 - Sep 2016)">
+                        <li>Web dev</li>
+                        <li>PWA</li>
+                        <li>Database</li>
+                        <li>Social Media</li>
+                        <li>HTML, C# MVC, MySQL, GitHub</li>
+                    </category-item>
+                    <category-item title="Web Developer" subtitle="DAwebdev (Since 2015)">
+                        <li>Freelancer</li>
+                        <li>Institutional Websites</li>
+                        <li>Wordpress</li>
+                        <li>Social Media</li>
+                        <li>HTML, AngularJs, C# MVC, Typescript, Javascript, MySQL, GitHub</li>
+                    </category-item>
+                </category>
+                <category name="Projects">
+                    <category-item title="Coffee" subtitle="Mine">
+                        <li>Planning: build some coffee machine with javascript</li>
+                    </category-item>
+                    <category-item title="The Fraternity" subtitle="Writer">
+                        <li>Writer from college football season</li>
+                        <li>Reviews, statistics</li>
+                        <li>Collaborator</li>
+                    </category-item>
+                    <category-item title="Sonhar Acordado - NGO" subtitle="End of year party">
+                        <li>All day as an uncle from a child</li>
+                        <li>Being a mentor teaching and learning with the child</li>
+                        <li>Workshops</li>
+                        <li>Getting more human!</li>
+                    </category-item>
+                </category>
+                <category name="Skills">
+                    <category-item title="Web Development">
+                        <li>
+                            <strong>HTML</strong> Great knowledge from html5</li>
+                        <li>
+                            <strong>CSS</strong> Workind using less, media queries</li>
+                        <li>
+                            <strong>SCRUM</strong> Basic knowlege, having used just sometimes</li>
+                        <li>
+                            <strong>Frameworks</strong> AngularJs, studying Angular 2+ and React </li>
+                    </category-item>
+                    <category-item title="Technologies">
+                        <li>
+                            <strong>Programming</strong> C# \ Javascript \ PHP \ Progress </li>
+                        <li>
+                            <strong>Databases</strong> MySQL \ SQLServer</li>
+                    </category-item>
+                    <category-item title="Who I Am">
+                        <li>
+                            <strong>Age</strong> 22 - (03/18/96)
+                        </li>
+                        <li>
+                            <strong>Language</strong> English - Intermediate/Advanced (Conversation, Reading, Writing)
+                        </li>
+                        <li>
+                            <strong>Live</strong> Paulínia/SP - Next to Campinas
+                        </li>
+                        <li>
+                            <strong>Football Player</strong> Yes, I'm a football player here in Brazil! o/
+                        </li>
+                    </category-item>
+                </category>
+            </resume-column>
+        </resume-body>
+    </resume>
+
+
+</body>
+
+</html>
