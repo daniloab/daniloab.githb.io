@@ -1,9 +1,5 @@
-# Danilo Resume
 
-## [See](https://daniloab.github.io/)
+## My career [resume] (https://daniloab.github.io/) o/
 
-## Getting Started
-
-First resume from my career! 
-
-Resume from (https://github.com/rrdelaney/material-resume)
+## Resume from
+(https://github.com/rrdelaney/material-resume)
